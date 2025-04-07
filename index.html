@@ -80,6 +80,12 @@
             color: #fff;
             cursor: pointer;
         }
+        .footer {
+            background-color: #2a0729;
+            color: #E4B839;
+            padding: 15px;
+            font-size: 1em;
+        }
     </style>
 </head>
 <body>
@@ -90,9 +96,9 @@
         </div>
         <p>Tech Artist | Rigger | 3D Generalist</p>
         <div class="links">
-            <button onclick="openVideo('https://www.youtube.com/embed/mUkSiacyWqM')">Tech Artist Demoreel</button>
-            <button onclick="openVideo('https://www.youtube.com/embed/XuHgjnMgYgA')">3D Generalist Demoreel</button>
             <a href="https://www.artstation.com/yourprofile" target="_blank">ArtStation</a>
+            <button onclick="openVideo('https://www.youtube.com/embed/XuHgjnMgYgA')">3D Generalist Demoreel</button>
+            <button onclick="openVideo('https://www.youtube.com/embed/mUkSiacyWqM')">Tech Artist Demoreel</button>
             <a href="https://www.linkedin.com/in/ange-alexandre-michies-brunaud-146845231/" target="_blank">LinkedIn</a>
         </div>
     </div>
@@ -100,6 +106,10 @@
     <div class="video-modal" id="videoModal">
         <span class="close" onclick="closeVideo()">&times;</span>
         <iframe id="videoFrame" src="" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="footer">
+        Contact: alex.michiesbrunaud@orange.fr | +33 6 50 26 43 91
     </div>
 
     <script>
